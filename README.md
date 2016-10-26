@@ -1,2 +1,2 @@
 # LoveLocator
-Application that help you find your love!
+Application that help you find your love AND KILL HER!
