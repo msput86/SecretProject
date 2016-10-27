@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_1b03deb1ff622a9b50b22aa4288032a2f82bfd31\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_b0a327e2f99068538f553f39d1ef97f754fb9353\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b5f45ec0647d162f16ea487cc1431ce510c0ecb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_acd9e9b96f141b3287354f53963cd9a4c25c538d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_9287ea827619fa2c7c4beb086b8addc5125e4541\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_1d9d6b8cdad4d8f19e2ff9d9eddef9bf48980fc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_0fac32a445074badd20d623de940703cc244ddc4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f99fc0ed17c4fb97cb7ebbe2e3de5e20eaef9b5">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_872079e38513e4e8b42634533d3a0ee5514efa4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b28ca59f1178d6965863499b6753785033d1807a">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_069110b805fa90dbb85b2a147afb64081f6de98c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Pat\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_0fa979ac29c43a9513fe35d5f039c1298eb95ba5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_621e347f1136d09151b82829e38e0083f203a193\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_944534543118d239e2c1b38eb11f8b72dd3e54fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_516747da072733144b58e8df526a592675a498cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_fbf00e2d5fc8507808d434161262b1bd9c9daabc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_021e0890e6db27cae0dcad5f2648fb530f1dbf97\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_0d3ae5f5fcc23a6a2fbded7566183b35f659bb5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\java\SecretProject\client\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\java\SecretProject\client\android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_3b2e0bd5cc689ce648180792d6285e355e609c8f\classes.dex" />
+    </item>
+
+</items>
