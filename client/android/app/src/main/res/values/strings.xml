@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SecretProject</string>
+    <string name="google">Гугл</string>
+    <string name="openStreet">ОупенСтритМап</string>
+    <string name="yandex">Яндекс</string>
+    <string name="showMe">Показать меня</string>
+    <string name="test">test</string>
+    <string name="test1">test1</string>
 </resources>

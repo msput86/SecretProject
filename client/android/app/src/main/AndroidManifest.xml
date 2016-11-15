@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.secretproject.secretproject">
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,10 +19,30 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.secretproject.secretproject.broadcast" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <meta-data
+            android:name="MAPBOX_MAPID"
+            android:value="mapbox.mapbox-streets-v7" />
+        <meta-data
+            android:name="MAPBOX_ACCESS_TOKEN"
+            android:value="pk.eyJ1IjoibXNwdXQ4NiIsImEiOiJjaXV6OXowM3EwMDIyMnhyMXJ1Ym1jeXBwIn0.rQs-gRvrVR7aygmHgR8pqA" />
+        <meta-data
+            android:name="MAPQUEST_MAPID"
+            android:value="mapbox.mapbox-streets-v7" />
+        <meta-data
+            android:name="MAPQUEST_ACCESS_TOKEN"
+            android:value="nyzNBV9HMzENpVAwuEcAijlWKO0xzTg0" />
+
+        <service
+            android:name=".LocationListnerService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
