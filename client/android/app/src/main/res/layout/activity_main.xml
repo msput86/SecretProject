@@ -1,76 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.secretproject.secretproject.MainActivity"
-    android:background="@color/colorAccent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
-
-    <ImageButton
-        app:srcCompat="@drawable/heart"
-        android:id="@+id/imageButton"
-        android:background="@color/colorAccent"
-        android:scaleType="fitCenter"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:onClick="onClick" />
-
-    <TextView
+    <Button
+        android:text="About"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:fontFamily="serif"
-        android:textSize="100sp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textStyle="normal|bold"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignStart="@+id/imageButton"
-        android:textAlignment="center" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="91dp"
+        android:id="@+id/goAboutBtn"
+        android:onClick="goAboutClick" />
 
-    <TextView
+    <Button
+        android:text="Settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:fontFamily="serif"
-        android:textSize="100sp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textStyle="normal|bold"
-        android:layout_above="@+id/imageButton"
-        android:layout_centerHorizontal="true"
-        android:textAlignment="center" />
-</RelativeLayout-->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/linear1">
+        android:layout_below="@+id/goAboutBtn"
+        android:layout_alignStart="@+id/goAboutBtn"
+        android:layout_marginTop="24dp"
+        android:id="@+id/goSettingsBtn"
+        android:onClick="goSettingsClick" />
 
-    <org.osmdroid.views.MapView android:id="@+id/map"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"/>
-    <!--Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/btn1"
-        android:text="rrrrrrrr"/-->
-    <!--FrameLayout
-
-        android:id="@+id/container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </FrameLayout-->
-
-</LinearLayout>
+    <Button
+        android:text="Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goSettingsBtn"
+        android:layout_alignEnd="@+id/goAboutBtn"
+        android:layout_marginTop="47dp"
+        android:id="@+id/goMapBtn"
+        android:onClick="goMapClick" />
+</RelativeLayout>

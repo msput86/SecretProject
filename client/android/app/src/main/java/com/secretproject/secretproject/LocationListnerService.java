@@ -10,7 +10,6 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.app.ActivityCompat;
-import android.util.Log;
 import android.widget.Toast;
 
 public class LocationListnerService extends Service {
@@ -143,9 +142,9 @@ public class LocationListnerService extends Service {
                 intent.putExtra("Provider", loc.getProvider());
                 sendBroadcast(intent);*/
                 Toast.makeText( getApplicationContext(), "New coordinates -"+loc.getLatitude()+" "+loc.getLongitude(), Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(MainActivity.BROADCAST_ACTION);
-                intent.putExtra(MainActivity.LONGITUDE, loc.getLongitude());
-                intent.putExtra(MainActivity.LATITUDE, loc.getLatitude());
+                Intent intent = new Intent(MapActivity.BROADCAST_ACTION);
+                intent.putExtra(MapActivity.LONGITUDE, loc.getLongitude());
+                intent.putExtra(MapActivity.LATITUDE, loc.getLatitude());
                 sendBroadcast(intent);
 
             }

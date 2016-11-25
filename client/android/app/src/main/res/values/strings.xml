@@ -6,4 +6,20 @@
     <string name="showMe">Показать меня</string>
     <string name="test">test</string>
     <string name="test1">test1</string>
+    <string name="server_address">Server address</string>
+    <string name="primary_server_address">Primary server address</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="about_text">
+    супер-пупер-мега прога.\n
+    Попытку её написания\n
+    предпринимают:\n
+        <b>Программист</b>,\n
+        <b>Мотоциклист</b>,\n
+        и <b>Алкоголик</b>.\n
+    \n
+    Пока получается тугова-то.\n
+    Но они верят в себя!</string>
+    <string name="about_title">About</string>
+    <string name="settings_title">Settings</string>
 </resources>
