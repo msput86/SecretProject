@@ -1,13 +1,18 @@
 <resources>
     <string name="app_name">SecretProject</string>
+
     <string name="google">Гугл</string>
     <string name="openStreet">ОупенСтритМап</string>
     <string name="yandex">Яндекс</string>
     <string name="showMe">Показать меня</string>
+    <string name="settings">Settings</string>
+    <string name="map">Map</string>
+    <string name="about">About</string>
+
+
     <string name="test">test</string>
     <string name="test1">test1</string>
-    <string name="server_address">Server address</string>
-    <string name="primary_server_address">Primary server address</string>
+
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="about_text">
@@ -21,5 +26,17 @@
     Пока получается тугова-то.\n
     Но они верят в себя!</string>
     <string name="about_title">About</string>
+
     <string name="settings_title">Settings</string>
+    <string name="server_preference_category">Server settings</string>
+    <string name="connection_preference_category">COnnection settings</string>
+    <string name="primary_server_address">Primary server address</string>
+    <string name="primary_server_port">Primary server port</string>
+    <string name="primary_server_api">API path</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="on_autologin">Off autologin</string>
+    <string name="off_autologin">On autologin</string>
+    <string name="nickname">Nickname</string>
+    <string name="say_hello">Say \"Hello\" to server</string>
 </resources>

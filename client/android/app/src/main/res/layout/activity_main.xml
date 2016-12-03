@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <Button
-        android:text="About"
+        android:text="@string/about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -14,7 +14,7 @@
         android:onClick="goAboutClick" />
 
     <Button
-        android:text="Settings"
+        android:text="@string/settings"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/goAboutBtn"
@@ -24,7 +24,7 @@
         android:onClick="goSettingsClick" />
 
     <Button
-        android:text="Map"
+        android:text="@string/map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/goSettingsBtn"
@@ -32,4 +32,24 @@
         android:layout_marginTop="47dp"
         android:id="@+id/goMapBtn"
         android:onClick="goMapClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/nickNameTextView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/button2"
+        android:text="@string/say_hello"
+        android:layout_below="@+id/goMapBtn"
+        android:layout_alignStart="@+id/goMapBtn"
+        android:layout_marginStart="50dp"
+        android:onClick="sayHello" />
 </RelativeLayout>

@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text|textUri"
-        android:text="@string/server_address"
+        android:text="server_address"
         android:ems="10"
         android:id="@+id/serverAddress"
         android:hint="@string/primary_server_address"

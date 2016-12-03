@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/server_preference_category">
+        <EditTextPreference
+            android:defaultValue="andrew-6676.ddns.net"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/primary_server_address"
+            android:key="server_address" />
+        <EditTextPreference
+            android:defaultValue="8080"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/primary_server_port"
+            android:key="server_port" />
+        <EditTextPreference
+            android:defaultValue="test"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/primary_server_api"
+            android:key="server_api" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/connection_preference_category">
+        <EditTextPreference
+            android:defaultValue="User"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/nickname"
+            android:key="server_nickbame" />
+        <EditTextPreference
+            android:defaultValue="testUser"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/login"
+            android:key="server_login" />
+        <EditTextPreference
+            android:defaultValue="12345"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/password"
+            android:key="server_password"
+            android:password="true" />
+        <SwitchPreference
+            android:key="server_autologin"
+            android:summaryOn="@string/on_autologin"
+            android:summaryOff="@string/off_autologin"
+            android:switchTextOff="No"
+            android:switchTextOn="Yes" />
+    </PreferenceCategory>
+</PreferenceScreen>

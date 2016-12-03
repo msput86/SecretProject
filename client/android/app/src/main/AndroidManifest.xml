@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+
     <application
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
@@ -27,11 +28,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".SettingsActivity"
             android:label="@string/settings_title">
         </activity>
+
         <activity android:name=".AboutActivity"
             android:label="@string/about_title">
+        </activity>
+
+        <activity
+            android:name=".MyPreferenceActivity"
+            android:label="@string/settings_title">
         </activity>
 
         <activity android:name=".MapActivity">
