@@ -53,36 +53,37 @@ public class MainActivity extends AppCompatActivity {
            // Операции для выбранного пункта меню
         switch (id) {
             case R.id.action_map:
-                intent = new Intent(MainActivity.this, MapActivity.class);
-                startActivity(intent);
+                this.openMapActivity(null);
+//                intent = new Intent(MainActivity.this, MapActivity.class);
+//                startActivity(intent);
                 return true;
             case R.id.action_settings:
-                intent = new Intent(this, MyPreferenceActivity.class);
-                startActivity(intent);
+                this.openSettingsActivity(null);
+//                intent = new Intent(this, MyPreferenceActivity.class);
+//                startActivity(intent);
                 return true;
             case R.id.action_about:
-                intent = new Intent(MainActivity.this, AboutActivity.class);
-                startActivity(intent);
+                this.openAboutActivity(null);
+//                intent = new Intent(MainActivity.this, AboutActivity.class);
+//                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
 
-    public void goAboutClick(View view) {
+    public void openAboutActivity(View view) {
         Intent intent = new Intent(MainActivity.this, AboutActivity.class);
         startActivity(intent);
     }
 
-    public void goSettingsClick(View view) {
-        //Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
-        //startActivity(intent);
-
+    public void openSettingsActivity(View view) {
         Intent intent = new Intent(this, MyPreferenceActivity.class);
+        intent.putExtra("TestString", "content of TestString");
         startActivity(intent);
     }
 
-    public void goMapClick(View view) {
+    public void openMapActivity(View view) {
         Intent intent = new Intent(MainActivity.this, MapActivity.class);
         startActivity(intent);
     }

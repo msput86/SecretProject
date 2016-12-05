@@ -11,7 +11,7 @@
         android:layout_marginStart="81dp"
         android:layout_marginTop="91dp"
         android:id="@+id/goAboutBtn"
-        android:onClick="goAboutClick" />
+        android:onClick="openAboutActivity" />
 
     <Button
         android:text="@string/settings"
@@ -21,7 +21,7 @@
         android:layout_alignStart="@+id/goAboutBtn"
         android:layout_marginTop="24dp"
         android:id="@+id/goSettingsBtn"
-        android:onClick="goSettingsClick" />
+        android:onClick="openSettingsActivity" />
 
     <Button
         android:text="@string/map"
