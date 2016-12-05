@@ -95,8 +95,12 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefs = PreferenceManager
                 .getDefaultSharedPreferences(this);
         // читаем установленное значение из
-        sNickname = prefs.getString("server_nickbame", "Anonimus");
+        sNickname = prefs.getString("server_nickname", "Anonimus");
         nickNameTextView.setText(sNickname);
+
+        MyApplication myApp = (MyApplication) getApplication();
+        myApp.setParam("server_nickname", sNickname);
+        //myApp.getParams()
 
     }
 

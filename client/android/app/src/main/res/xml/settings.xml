@@ -27,7 +27,7 @@
             android:selectAllOnFocus="true"
             android:singleLine="true"
             android:title="@string/nickname"
-            android:key="server_nickbame" />
+            android:key="server_nickname" />
         <EditTextPreference
             android:defaultValue="testUser"
             android:selectAllOnFocus="true"
