@@ -8,7 +8,7 @@ import java.util.Map;
  * Created by andrew on 05.12.16.
  */
 
-public class MyApplication extends Application {
+public class SecretProgject extends Application {
     private Map Params = null;
 
     public Map getParams() {

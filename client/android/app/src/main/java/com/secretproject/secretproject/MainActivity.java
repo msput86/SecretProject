@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.provider.ContactsContract;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
@@ -98,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
         sNickname = prefs.getString("server_nickname", "Anonimus");
         nickNameTextView.setText(sNickname);
 
-        MyApplication myApp = (MyApplication) getApplication();
-        myApp.setParam("server_nickname", sNickname);
+        //SecretProgject myApp = (SecretProgject) getApplication();
+        //myApp.setParam("server_nickname", sNickname);
         //myApp.getParams()
 
     }
