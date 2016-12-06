@@ -1,9 +1,7 @@
 package com.secretproject.secretproject;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
@@ -59,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.action_settings:
                 this.openSettingsActivity(null);
-//                intent = new Intent(this, MyPreferenceActivity.class);
+//                intent = new Intent(this, SettingsActivity.class);
 //                startActivity(intent);
                 return true;
             case R.id.action_about:
@@ -78,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openSettingsActivity(View view) {
-        Intent intent = new Intent(this, MyPreferenceActivity.class);
+        Intent intent = new Intent(this, SettingsActivity.class);
         intent.putExtra("TestString", "content of TestString");
         startActivity(intent);
     }
@@ -92,16 +90,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
-        SharedPreferences prefs = PreferenceManager
-                .getDefaultSharedPreferences(this);
-        // читаем установленное значение из
-        sNickname = prefs.getString("server_nickname", "Anonimus");
-        nickNameTextView.setText(sNickname);
 
-        //SecretProgject myApp = (SecretProgject) getApplication();
-        //myApp.setParam("server_nickname", sNickname);
-        //myApp.getParams()
-
+        SecretProgjectApp myApp = (SecretProgjectApp) getApplication();
+        myApp.reloadParams();
+        nickNameTextView.setText(myApp.getParam("server_nickname"));
     }
 
     public void sayHello(View view) {

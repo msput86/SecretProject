@@ -29,7 +29,7 @@
 
     <string name="settings_title">Settings</string>
     <string name="server_preference_category">Server settings</string>
-    <string name="connection_preference_category">COnnection settings</string>
+    <string name="connection_preference_category">Connection settings</string>
     <string name="primary_server_address">Primary server address</string>
     <string name="primary_server_port">Primary server port</string>
     <string name="primary_server_api">API path</string>
